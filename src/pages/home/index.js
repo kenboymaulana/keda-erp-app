@@ -9,16 +9,16 @@ const Home = () => {
     <>
       <title>Portal - KeDa ERP System</title>
 
-      {/* 🔷 HERO SECTION */}
+      {/* HERO SECTION */}
       <Hero />
 
-      {/* 💼 TIER / PRICING SECTION */}
+      {/* TIER / PRICING SECTION */}
       <PricingSection />
 
-      {/* 💼 About Section */}
+      {/* ABOUT SECTION */}
       <About />
 
-      {/* 💼 Contact Section */}
+      {/* CONTACT SECTION */}
       <Contact />
     </>
   );
