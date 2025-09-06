@@ -145,7 +145,7 @@ const Login = () => {
               fullWidth
               sx={{
                 mt: 2,
-                color: "#fff",
+                color: "primary.main",
                 textTransform: "none",
                 fontWeight: "bold",
                 "&:hover": {
