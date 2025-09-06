@@ -1,5 +1,5 @@
 import React from "react";
-import { Box, Button, Grid, Stack, TextField, Typography } from "@mui/material";
+import { Box, Button, Checkbox, Grid, Stack, TextField, Typography } from "@mui/material";
 
 const Login = () => {
   return (
@@ -97,6 +97,36 @@ const Login = () => {
                 },
               }}
             />
+            <Box
+              sx={{
+                width: "100%",
+                display: "flex",
+                alignItems: "center",
+                justifyContent: "space-between",
+                mt: 1,
+              }}
+            >
+              <Box sx={{ display: "flex", alignItems: "center" }}>
+                <Checkbox />
+                <Typography
+                  style={{ color: "#fff", fontSize: "0.95rem", fontWeight: 500, cursor: "pointer" }}
+                >
+                  Ingat saya
+                </Typography>
+              </Box>
+              <a
+                href="/auth/forgot-password"
+                style={{
+                  color: "#fff",
+                  textDecoration: "underline",
+                  fontSize: "0.95rem",
+                  fontWeight: 500,
+                  cursor: "pointer",
+                }}
+              >
+                Lupa password?
+              </a>
+            </Box>
 
             <Button
               variant="contained"
