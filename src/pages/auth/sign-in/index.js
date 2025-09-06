@@ -1,16 +1,5 @@
 import React from "react";
-import {
-  Box,
-  Button,
-  Container,
-  Grid,
-  Paper,
-  Stack,
-  TextField,
-  Typography,
-  Divider,
-} from "@mui/material";
-import GoogleIcon from "@mui/icons-material/Google";
+import { Box, Button, Grid, Stack, TextField, Typography } from "@mui/material";
 
 const Login = () => {
   return (

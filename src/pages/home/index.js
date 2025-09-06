@@ -1,26 +1,10 @@
 import React from "react";
-import {
-  Box,
-  Button,
-  Container,
-  Grid,
-  Typography,
-  Card,
-  CardContent,
-  List,
-  ListItem,
-  ListItemText,
-} from "@mui/material";
-import { useNavigate } from "react-router-dom";
-import Hero from "./components/Hero";
-import PricingSection from "./components/Pricing";
-import About from "./components/About";
-import Contact from "./components/Contact";
-import Navbar from "../_layouts/landing-page/Navbar";
+import Hero from "./sections/Hero";
+import PricingSection from "./sections/Pricing";
+import About from "./sections/About";
+import Contact from "./sections/Contact";
 
 const Home = () => {
-  const navigate = useNavigate();
-
   return (
     <>
       <title>Portal - KeDa ERP System</title>

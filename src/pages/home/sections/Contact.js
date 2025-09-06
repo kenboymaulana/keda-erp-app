@@ -16,9 +16,6 @@ const Contact = () => {
         py: 15,
         px: 4,
         bgcolor: "#f9fafb",
-        // backgroundImage: "url('/assets/images/background-wave.png')",
-        // backgroundSize: "cover",
-        // backgroundPosition: "center",
       }}
     >
       <Typography variant="h4" align="center" gutterBottom sx={{ fontWeight: "bold" }}>

@@ -17,7 +17,6 @@ const Hero = () => {
         mt: 0,
       }}
     >
-      {/* Overlay */}
       <Box
         sx={{
           position: "absolute",
@@ -29,8 +28,6 @@ const Hero = () => {
           zIndex: 1,
         }}
       />
-
-      {/* Text Content */}
       <Container
         sx={{
           position: "relative",

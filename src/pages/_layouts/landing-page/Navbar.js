@@ -9,13 +9,10 @@ import {
   ListItem,
   ListItemText,
   Box,
-  Typography,
   Container,
   ListItemButton,
-  ListItemIcon,
 } from "@mui/material";
 import MenuIcon from "@mui/icons-material/Menu";
-import { Home } from "@mui/icons-material";
 import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
@@ -34,7 +31,7 @@ const Navbar = () => {
     if (section) {
       section.scrollIntoView({ behavior: "smooth" });
     }
-    setOpen(false); // tutup drawer setelah klik
+    setOpen(false);
   };
 
   return (
@@ -137,8 +134,8 @@ const Navbar = () => {
                   transition: "background-color 0.2s ease",
                   "&:hover": {
                     backgroundColor: theme.vars
-                      ? theme.vars.palette.action.hover // kalau pakai Joy + Material
-                      : theme.palette.action.hover, // kalau pakai Material doang
+                      ? theme.vars.palette.action.hover
+                      : theme.palette.action.hover,
                   },
                 })}
               >
